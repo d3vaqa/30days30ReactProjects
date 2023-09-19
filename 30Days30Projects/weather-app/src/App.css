@@ -1,0 +1,114 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+
+
+ul{
+  list-style: none;
+}
+
+
+
+
+/* hello */
+
+
+
+/* Style for the input field */
+input[type="text"] {
+  padding: 10px;
+  margin-bottom: 15px;
+  width: 100%;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  outline: none;
+}
+
+/* Style for the input field when it is focused */
+input[type="text"]:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+/* Style for the input field when there is an error or validation message */
+input[type="text"].error {
+  border-color: #ff0000;
+}
+
+/* Style for the weather data section with background and text colors */
+.weather-data {
+  background-color: #e1f5fe; /* Light blue background color */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Style for the weather data section headings */
+.weather-data h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #333; /* Dark gray text color */
+}
+
+/* Style for weather data items */
+.weather-data p {
+  font-size: 18px;
+  margin: 5px 0;
+  color: #444; /* Slightly darker gray text color */
+}
+
+/* Style for temperature display */
+.weather-data .temperature {
+  font-size: 28px;
+  font-weight: bold;
+  color: #007bff; /* Blue color for temperature */
+}
+
+.chart-container {
+  height: 400px; /* Set your desired fixed height here */
+  max-height: 100%; /* Ensure it doesn't exceed the parent container's height */
+  overflow: auto; /* Add scrollbars if needed when the chart exceeds the height */
+}
